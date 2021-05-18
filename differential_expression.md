@@ -6,7 +6,7 @@ Differential expression (DE) analysis is used to answer the question: what are t
 
 For example, in the next picture we want to compare two conditions (A and B), for the genes 1 and 2; each condition has 3 replicates marked in different colors. We could see that there are a DE between conditions: Condition A has more reads for the gene 1, while Condition B has more reads for the gene 2. The DE does not imply that there is no expression of one or more genes at all in one condition or another, but rather that it exists in a differential proportion considering similar depth sequence.
 
-<img src="/00_images/diff_expr_1.png" alt="diff_expr_1" style="zoom:100%;" />
+<img src="./00_images/diff_expr_1.png" alt="diff_expr_1" style="zoom:100%;" />
 
 ## Pipeline overview
 
@@ -185,7 +185,7 @@ plotMA(res05_dif_expression_deseq_data_set,
 dev.off()
 ```
 
-<img src="/01_example_files/volcano_plot.png" alt="volcano_plot" style="zoom:100%;" />
+<img src="./01_example_files/volcano_plot.png" alt="volcano_plot" style="zoom:100%;" />
 
 To generate an individual plot (only one feature) we run:
 
@@ -199,7 +199,7 @@ plotCounts(dif_expression_deseq_data_set,
 dev.off()
 ```
 
-<img src="/01_example_files/TRINITY_DN1097_c0_g1.png" alt="TRINITY_DN1097_c0_g1" style="zoom:100%;" />
+<img src="./01_example_files/TRINITY_DN1097_c0_g1.png" alt="TRINITY_DN1097_c0_g1" style="zoom:100%;" />
 
 We could generate a heatmap with a selection of the transcripts. In the example below we obtain the first 20 transcripts and plot them in a heatmap:
 
@@ -220,7 +220,7 @@ pheatmap(assay(dif_expression_deseq_data_set)[select,],
 dev.off()
 ```
 
-<img src="/01_example_files/heatmap.png" alt="heatmap" style="zoom:100%;" />
+<img src="./01_example_files/heatmap.png" alt="heatmap" style="zoom:100%;" />
 
 To generate a PCA, we run:
 
@@ -234,4 +234,4 @@ plotPCA(vsd, intgroup=c("group"))
 dev.off()
 ```
 
-<img src="/01_example_files/PCA.png" alt="PCA" style="zoom:100%;" />
+<img src="./01_example_files/PCA.png" alt="PCA" style="zoom:100%;" />
