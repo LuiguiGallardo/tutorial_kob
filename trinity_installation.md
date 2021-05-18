@@ -1,4 +1,6 @@
-### Installation of Miniconda
+###### Started on Thursday, May 13th, 2021 by Luigui Gallardo-Becerra (bfllg77@gmail.com)
+
+## Installation of Miniconda
 
 To check if you have onda installed, try one of the following your terminal: 
 
@@ -10,7 +12,7 @@ To check if you have onda installed, try one of the following your terminal:
 
 If you get an error, like "command not found", you must to install Miniconda (light version) or Anaconda (complete version). I recommend to you install Miniconda. You could find the instructions in this link: https://docs.conda.io/en/latest/miniconda.html.
 
-### Installation and usage of Trinity
+## Installation and usage of Trinity
 
 This is the software to assembly *de novo* transcriptomes from RNA-seq data. It depends on multiple programs, that could have been change over time, so the best way to install it is with a new enviroment of conda. To accomplish this you must run something like this:
 

@@ -1,0 +1,8 @@
+	group
+dextrosa_rep1	dextrosa
+dextrosa_rep2	dextrosa
+dextrosa_rep3	dextrosa
+impranil_rep1	impranil
+impranil_rep2	impranil
+impranil_rep3	impranil
+
